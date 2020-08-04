@@ -1,0 +1,51 @@
+<html>
+    <head></head>
+       <title>Game</title>
+       <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body id="body">
+        <div id = "again" style="display: none;">
+            <div id = "message">
+            <p id = "final" > </p>
+            <b>Play again?</b><br>
+            <button onclick="window.location.reload()"><b>Yes</b></button>
+            <button onclick="quit()"><b>No</b></button>
+        </div>
+        </div>
+        <div id = "quit" style="display: none;">
+        <div id="bye">
+            Thank you for playing!
+        </div>
+        </div>
+        <h1>Rock   Paper  Scissors</h1>
+        <div id="intro">
+            Enter your name : <input type="text" id= "name1"><button id="sub" type="submit" onclick = "getname()">Enter</button>
+        </div>
+        <div class = "main" id = "main">
+            <img src = "img/rock.png" onclick="rock()" id="rock">
+            <img src = "img/paper.png" onclick="paper()" id="paper">
+            <img src = "img/scissors.png" onclick="scissors()" id = "scissors">
+            <div id= "history">Tally : </div>
+            <div class = "textarea">
+                <table id = "stats">
+                    <th id = "score">Player - 0</th>
+                    <th>Result</th>
+                    <th id = "scoree">Computer - 0 </th>
+                    <tr style="display:none;" id = "result">
+                        <td id="p1">
+                        </td>
+                        <td id="winner" style="font-size: 32px;">
+                        </td>
+                        <td id= "p2">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <center>
+    <p id = "footer">&copy All right Reserved.<a class="text-green ml-2" href="https://www.soyaj.com.np" target="_blank" style="text-decoration:none; color: white;"> Soyaj Bajracharya</a></p></center>
+</section>
+        <script src="js/test.js"></script>
+    </body>
+</html>

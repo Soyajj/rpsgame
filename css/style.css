@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: raleway;
+    scroll-behavior: smooth;
+}
+
+@font-face{
+    font-family: raleway;
+    src: url(../fonts/Raleway-Regular.ttf)
+}
+
+body{
+    background-color: #06172B;
+    height: 120vh;
+}
+
+body h1{
+    color: white;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.main{
+    background-color: #0A2546;
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.main img{
+    width: 30%;
+}
+
+.main .textarea{
+    padding: 30px;
+}
+
+.main .textarea p{
+    padding-top:10px;
+}
+
+
+button{
+    height:5vh;
+    width: 60px;
+    background-color: whitesmoke;
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textarea table{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 25px;
+    border-collapse: collapse;
+}
+
+
+.textarea table tr td{
+    color: white;
+    font-size: 20px;
+}
+
+th, td {
+    width: 35%;
+    background-color: #4FA7BF;
+    text-align: center;
+    padding:10px;
+    border-bottom: 2px solid #0A2546;
+}
+
+
+#history{
+    height: 4vh;
+    background-color: #4FA7BF;
+    width: 83%;
+    margin: 0 auto;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#intro{
+    text-align: center;
+    color: white;
+}
+
+#intro input {
+    height: 5vh; 
+    width: 20%;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+.main img{
+    height: 50vh;
+    width: 25%;
+    border-top : 4px solid #0A2546;
+}
+
+#again{
+    font-size: 25px;
+}
+
+.main img:hover{
+    border-top: 4px white solid;
+}
+
+
+#again{
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(4px);
+
+}
+
+#final{
+    font-size: 45px;
+    font-weight: 900;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+#message{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top :15%;
+
+}
+
+#quit{
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    background: black;
+}
+
+#bye{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top :15%;
+}
+
+#footer{
+    color: gray; 
+    margin-top:10px;
+}
+
+@media screen and (max-width:1000px){
+    .main{
+        width: 90%;
+    }
+    .main img{
+        height: 16vh;
+        width: 24vw;
+    }
+
+    .main{
+        height: 75vh;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    button{
+        height:30px;
+        width: 60px;
+
+    }
+    #intro input{
+        height: 30px;
+    }
+            
+    #history{
+        height: 3vh;
+    }
+
+}
